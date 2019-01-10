@@ -1,0 +1,27 @@
+.container-single {
+	width: 673px;
+	height: 94px;
+	border: 1px solid #6b7696;
+	margin:40px 0 30px;
+	position: relative;
+}
+.container-single::before {
+	content: "";
+	display: inline-block;
+	margin: auto;
+	background: url(../../img/alert.png) no-repeat, #ebf0f5;
+	width: 60px;
+	height: 54px;
+	position: absolute;
+	left: 307px;
+	top: -38px;
+}
+.container-single__text {
+	position: absolute;
+	margin: -20px 0 0 0;
+	padding: 0 36px;
+	font: 700 14px/1.5 'Roboto', Arial, sans-serif;
+	color: #667799;
+	text-align: center;
+	top: 50%;
+}

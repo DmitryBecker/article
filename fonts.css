@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto'),
+    url('/fonts/Roboto.woff2') format('woff2'),
+    url('/fonts/Roboto.woff') format('woff'),
+    url('/fonts/Roboto.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Roboto Light';
+    src: local('Robotolight'),
+    url('/fonts/Robotolight.woff2') format('woff2'),
+    url('/fonts/Robotolight.woff') format('woff'),
+    url('/fonts/Robotolight.ttf') format('truetype');
+}
